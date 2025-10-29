@@ -108,6 +108,12 @@
             <version>7.4</version> <!-- latest stable -->
         </dependency>
 
+        <!-- Flyway for sql migration -->
+        <dependency>
+            <groupId>org.flywaydb</groupId>
+            <artifactId>flyway-core</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>
